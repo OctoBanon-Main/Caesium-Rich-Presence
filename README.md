@@ -1,24 +1,32 @@
 <p align="center">
-  <h1 align="center">Readme example</h1>
+  <h1 align="center">Discord RPC client</h1>
 </p>
 <p align="center">
-  <h2 align="center">README example for my projects</h2>
+  <h2 align="center">Simple Discord Rich Presence client</h2>
 </p>
 <p align="center">
-  <a href="#">Test</a>
+  <a href="https://github.com/OctoBanon-Main/discord-rpc-client/issues">Send bug report</a>
   •
-  <a href="#">Test 2</a>
+  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
+  •
+  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#licenses">Licenses</a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/contributors/OctoBanon-Main/readme-example?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/forks/OctoBanon-Main/readme-example?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/stars/OctoBanon-Main/readme-example?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/issues/OctoBanon-Main/readme-example?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/downloads/OctoBanon-Main/readme-example/total?style=for-the-badge"/>
-  <img src="https://img.shields.io/github/license/OctoBanon-Main/readme-example?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/contributors/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/forks/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/stars/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/issues/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/downloads/OctoBanon-Main/discord-rpc-client/total?style=for-the-badge"/>
+  <img src="https://img.shields.io/github/license/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
 </p>
 <br />
 
-#### Test
-Test
+### Something is broken right now
+Nothing is broken
+
+### How I can help?
+Feel free to fork this repo and make a pull request or create an issue, if you encountered an problem!
+
+### Licenses
+The project is licensed under the GNU General Public License 3.0.
