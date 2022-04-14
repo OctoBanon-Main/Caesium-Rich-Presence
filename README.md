@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">Discord RPС</h1>
+  <h1 align="center">SDRPС</h1>
 </p>
 <p align="center">
   <h2 align="center">Simple Discord Rich Presence client</h2>
