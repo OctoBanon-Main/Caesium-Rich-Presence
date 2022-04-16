@@ -46,6 +46,7 @@ python main.py --help or -h
 ```
 
 ## Something is broken right now
+- [ ] Spaces in arguments
 - [ ] Timestamp
 
 ## How I can help?
