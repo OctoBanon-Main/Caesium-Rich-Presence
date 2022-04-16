@@ -22,10 +22,33 @@
 </p>
 <br />
 
-### Something is broken right now
+## How use this?
+Install pypresence with command:
+```bash
+pip install pypresence
+```
+Or on linux
+```bash
+pip3 install pypresence
+```
+
+Create profile with command:
+```bash
+python main.py create --name NAME --details TEXT --state TEXT
+```
+And load this with command
+```bash
+python main.py load --name NAME
+```
+Addictional arguments will be in help
+```
+python main.py --help or -h
+```
+
+## Something is broken right now
 - [ ] Timestamp
 
-### How I can help?
+## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered an problem!
 
 ### Licenses
