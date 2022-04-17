@@ -34,11 +34,11 @@ pip3 install pypresence
 
 Create profile with command:
 ```bash
-python main.py create --name NAME --details TEXT --state TEXT
+python main.py create --client-id ID --name "NAME" --details "TEXT" --state "TEXT"
 ```
 And load this with command
 ```bash
-python main.py load --name NAME
+python main.py load --name "NAME"
 ```
 Addictional arguments will be in help
 ```
@@ -46,7 +46,6 @@ python main.py --help or -h
 ```
 
 ## Something is broken right now
-- [ ] Spaces in arguments
 - [ ] Timestamp
 
 ## How I can help?
