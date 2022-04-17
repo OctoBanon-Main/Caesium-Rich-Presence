@@ -7,9 +7,9 @@
 <p align="center">
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client/issues">Send bug report</a>
   •
-  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
-  •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#how-use-this">Usage</a>
+  •
+  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
   •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#licenses">Licenses</a>
 </p>
