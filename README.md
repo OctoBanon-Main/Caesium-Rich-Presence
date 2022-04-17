@@ -9,6 +9,8 @@
   •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
   •
+  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#how-use-this">Usage</a>
+  •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#licenses">Licenses</a>
 </p>
 
@@ -51,5 +53,5 @@ python main.py --help or -h
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
-### Licenses
+## Licenses
 The project is licensed under the GNU General Public License 3.0.
