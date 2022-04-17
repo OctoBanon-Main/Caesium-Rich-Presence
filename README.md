@@ -50,7 +50,7 @@ python main.py --help or -h
 - [ ] Timestamp
 
 ## How I can help?
-Feel free to fork this repo and make a pull request or create a issue, if you encountered an problem!
+Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
 ### Licenses
 The project is licensed under the GNU General Public License 3.0.
