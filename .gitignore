@@ -1,3 +1,5 @@
 /.idea
 /README.md
 /LICENSE
+/.github
+/__pycache__
