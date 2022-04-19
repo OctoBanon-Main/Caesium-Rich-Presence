@@ -48,7 +48,7 @@ python main.py --help or -h
 ```
 
 ## Something is broken right now
-- [ ] Timestamp
+Nothing is broken
 
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
