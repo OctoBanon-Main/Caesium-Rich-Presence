@@ -1,8 +1,7 @@
 from sys import argv
 from os import path, mkdir
 from json import dump, load
-from include import connect_rpc
-from include import argument_parser
+from include import connect_rpc, argument_parser
 
 
 class Main:
