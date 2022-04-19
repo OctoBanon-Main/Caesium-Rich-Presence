@@ -1,5 +1,7 @@
 from pypresence import Presence
+from include import messages
 from time import time, sleep
+from os import system
 
 
 def connection_up(profile: dict):
@@ -9,7 +11,9 @@ def connection_up(profile: dict):
     if profile["start"]:
         profile["start"] = time()
 
-    print("RPC Connected")
+    messages.cleaner()
+    print(messages.connection_up_message)
+
     while True:
         presence.update(state=profile["state"], details=profile["details"],
                         large_image=profile["large_image"],
