@@ -1,5 +1,4 @@
 from sys import argv
-from pathlib import Path
 from os import path, mkdir
 from json import dump, load
 from include import connect_rpc, argument_parser, messages
