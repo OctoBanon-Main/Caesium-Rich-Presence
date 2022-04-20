@@ -1,4 +1,5 @@
 from sys import argv
+from pathlib import Path
 from os import path, mkdir
 from json import dump, load
 from include import connect_rpc, argument_parser, messages
@@ -12,9 +13,16 @@ class Main:
         if not path.exists('profiles'):
             mkdir('profiles')
 
+        if path.exists(f'profiles/{self.params["name"]}.json'):
+            messages.cleaner()
+            print(messages.profile_already_exists_error)
+            return
+
         with open(f'profiles/{self.params["name"]}.json', 'w') as f:
-            self.params.pop("command")
-            dump(self.params, f, indent=2)
+            self.params.pop('command')
+            self.params.pop('name')
+            dump(self.params, f, indent=4)
+
             messages.cleaner()
             print(messages.profile_created_message)
 

@@ -1,1 +1,1 @@
-__version__ = "1.0.3b World of Colors"
+__version__ = "1.0.4b Party cooperation"

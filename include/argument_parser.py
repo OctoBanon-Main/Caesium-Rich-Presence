@@ -11,7 +11,7 @@ def args_parser():
     other_group = parser.add_argument_group(title='Other options')
 
     create_group.add_argument('--name', '-n', type=str, required=True, help='Set profile name')
-    create_group.add_argument('--client-id', '-ci', type=int, required=True, help='Set application ID.')
+    create_group.add_argument('--client-id', '-ci', type=int, required=True, help='Set application ID.', )
     create_group.add_argument('--state', '-st', type=str, required=True, help='Set state.')
     create_group.add_argument('--details', '-d', type=str, required=True, help='Set details.')
     create_group.add_argument('--start', '-s', type=bool)
@@ -20,6 +20,9 @@ def args_parser():
     create_group.add_argument('--large-text', '-ltext', type=str, help='Set text for large image.')
     create_group.add_argument('--small-image', '-simage', type=str, help='Set small image.')
     create_group.add_argument('--small-text', '-stext', type=str, help='Set text for small image.')
+    create_group.add_argument('--party', '-p', type=bool, help='Enabling party presence function.')
+    create_group.add_argument('--party-size', '-ps', type=int, nargs='+', help='Set party size.')
+    create_group.add_argument('--join', '-j', type=bool, help='Set true for create "Join" button.')
 
     load_group.add_argument('--name', '-n', type=str, required=True)
 
