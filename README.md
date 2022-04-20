@@ -33,6 +33,8 @@ Or on linux
 ```bash
 pip3 install pypresence
 ```
+Create application in [Discord Developer Portal](https://discord.com/developers/applications)
+Take application id from your created app and paste this in client-id argument
 
 Create profile with command:
 ```bash
