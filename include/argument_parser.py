@@ -11,7 +11,7 @@ def args_parser():
     other_group = parser.add_argument_group(title='Other options')
 
     create_group.add_argument('--name', '-n', type=str, required=True, help='Set profile name')
-    create_group.add_argument('--client-id', '-ci', type=int, required=True, help='Set application ID.', )
+    create_group.add_argument('--client-id', '-ci', type=int, required=True, help='Set application ID.')
     create_group.add_argument('--state', '-st', type=str, required=True, help='Set state.')
     create_group.add_argument('--details', '-d', type=str, required=True, help='Set details.')
     create_group.add_argument('--start', '-s', type=bool)
