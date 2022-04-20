@@ -53,5 +53,8 @@ Nothing is broken
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
+## Special thanks
+[.ZΞRO](https://github.com/kostya-zero) - For helping me with code and bug fixing
+
 ## Licenses
 The project is licensed under the GNU General Public License 3.0.
