@@ -25,7 +25,7 @@
 <br />
 
 ## How use this?
-Install pypresence with command:
+- Install pypresence with command:
 ```bash
 pip install pypresence
 ```
@@ -33,15 +33,15 @@ Or on linux
 ```bash
 pip3 install pypresence
 ```
-Create application in [Discord Developer Portal](https://discord.com/developers/applications)
+- Create application in [Discord Developer Portal](https://discord.com/developers/applications)
 
-Take application id from your created app and paste this in client-id argument
+- Take application id from your created app and paste this in client-id argument
 
-Create profile with command:
+- Create profile with command:
 ```bash
 python main.py create --client-id ID --name "NAME" --details "TEXT" --state "TEXT"
 ```
-And load this with command
+- And load this with command
 ```bash
 python main.py load --name "NAME"
 ```
