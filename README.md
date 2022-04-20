@@ -49,7 +49,12 @@ Addictional arguments will be in help
 ```
 python main.py --help or -h
 ```
-
+```
+python main.py create --help or -h
+```
+```
+python main.py load --help or -h
+```
 ## Something is broken right now
 Nothing is broken
 
