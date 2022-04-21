@@ -2,7 +2,6 @@ from pypresence import Presence
 from include import messages
 from secrets import token_hex
 from time import time, sleep
-from os import system
 
 
 def connection_up(profile: dict):
