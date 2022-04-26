@@ -11,8 +11,6 @@
   •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
   •
-  <a href="https://github.com/OctoBanon-Main/discord-rpc-client#special-thanks">Special thanks</a>
-  •
   <a href="https://github.com/OctoBanon-Main/discord-rpc-client#licenses">Licenses</a>
 </p>
 
@@ -25,9 +23,6 @@
   <img src="https://img.shields.io/github/license/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
 </p>
 <br />
-
-## Warning
-Argument parser will be rewrited in next update and old arguments maybe will unavalible or renamed
 
 ## How use this?
 - Install pypresence with command:
@@ -65,7 +60,7 @@ Nothing is broken
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
 ## Special thanks
-[.ZΞRO](https://github.com/kostya-zero) - For helping with code and bug fixing
+[.ZΞRO](https://github.com/kostya-zero) - For helping me with code and bug fixing
 
 Also thanks **vnpleo** for helping with text correction in this readme
 

@@ -26,9 +26,14 @@ def connection_up(profile: dict):
         while True:
             presence.update(state=profile['state'], details=profile['details'],
                             large_image=profile['large_image'],
-                            large_text=profile['large_text'], small_image=profile['small_image'],
-                            small_text=profile['small_text'], start=profile['start'], end=profile['end'],
-                            party_id=profile['party'], party_size=profile['party_size'], join=profile['join'])
+                            large_text=profile['large_text'],
+                            small_image=profile['small_image'],
+                            small_text=profile['small_text'],
+                            start=profile['start'],
+                            end=profile['end'],
+                            party_id=profile['party'],
+                            party_size=profile['party_size'],
+                            join=profile['join'])
             sleep(15)
-    except():
+    except ():
         print(messages.unexpected_error_occurred)
