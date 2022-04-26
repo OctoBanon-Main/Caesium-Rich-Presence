@@ -10,7 +10,7 @@ def colorizer(r, g, b, text):
 
 
 # Errors
-profile_not_exists_error = f'colorizer(177, 0, 0, "[ERROR]") This profile are not exists!'
+profile_not_exists_error = f'{colorizer(177, 0, 0, "[ERROR]")} This profile are not exists!'
 profile_already_exists_error = f'{colorizer(177, 0, 0, "[ERROR]")} This profile already exists!'
 unexpected_error_occurred = f'{colorizer(177, 0, 0, "[ERROR]")} Unexpected error occurred'
 
