@@ -67,7 +67,7 @@ Feel free to fork this repo and make a pull request or create an issue, if you e
 ## Special thanks
 [.ZΞRO](https://github.com/kostya-zero) - For helping with code and bug fixing
 
-Also thanks **vnpleo** for helping with text correction in this readme
+vnpleo - For helping with text correction in this readme
 
 ## Licenses
 The project is licensed under the GNU General Public License 3.0.
