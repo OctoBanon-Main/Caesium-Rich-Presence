@@ -1,25 +1,22 @@
-<h1 align="center">Simple DRPС</h1>
-<h2 align="center">Simple Discord Rich Presence client</h2>
+<div align="center">
+
+# Simple DRPС
+</div>
+<div align="center">
+
+# Simple Discord Rich Presence client
+</div>
 
 <p align="center">
-    <a href="https://github.com/OctoBanon-Main/discord-rpc-client/issues">Send bug report</a>
+    <a href="https://gitlab.com/OctoBanon/discord-rpc/-/issues">Send bug report</a>
     •
-    <a href="https://github.com/OctoBanon-Main/discord-rpc-client#how-use-this">Usage</a>
+    <a href="https://gitlab.com/OctoBanon/discord-rpc#how-use-this">Usage</a>
     •
-    <a href="https://github.com/OctoBanon-Main/discord-rpc-client#something-is-broken-right-now">Broked features</a>
+    <a href="https://gitlab.com/OctoBanon/discord-rpc#something-is-broken-right-now">Broked features</a>
     •
-    <a href="https://github.com/OctoBanon-Main/discord-rpc-client#special-thanks">Special thanks</a>
+    <a href="https://gitlab.com/OctoBanon/discord-rpc#special-thanks">Special thanks</a>
     •
-    <a href="https://github.com/OctoBanon-Main/discord-rpc-client#licenses">Licenses</a>
-</p>
-
-<p align="center">
-    <img src="https://img.shields.io/github/contributors/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/forks/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/stars/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/issues/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
-    <img src="https://img.shields.io/github/downloads/OctoBanon-Main/discord-rpc-client/total?style=for-the-badge">
-    <img src="https://img.shields.io/github/license/OctoBanon-Main/discord-rpc-client?style=for-the-badge"/>
+    <a href="https://gitlab.com/OctoBanon/discord-rpc#licenses">Licenses</a>
 </p>
 
 
