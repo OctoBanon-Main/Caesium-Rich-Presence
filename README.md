@@ -7,7 +7,7 @@
 # Simple Discord Rich Presence client
 </div>
 
-<p align="center">
+<div align="center">
     <a href="https://gitlab.com/OctoBanon/discord-rpc/-/issues">Send bug report</a>
     •
     <a href="https://gitlab.com/OctoBanon/discord-rpc#how-use-this">Usage</a>
@@ -17,7 +17,7 @@
     <a href="https://gitlab.com/OctoBanon/discord-rpc#special-thanks">Special thanks</a>
     •
     <a href="https://gitlab.com/OctoBanon/discord-rpc#licenses">Licenses</a>
-</p>
+</div>
 
 
 ## Warning
