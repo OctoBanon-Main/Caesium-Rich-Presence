@@ -1,22 +1,22 @@
 <div align="center">
 
-# Simple DRPС
+# Caesium Rich Presence
 </div>
 <div align="center">
 
-# Simple Discord Rich Presence client
+# A simple rich presence client for Discord
 </div>
 
 <div align="center">
-    <a href="https://gitlab.com/OctoBanon/discord-rpc/-/issues">Send bug report</a>
+    <a href="https://gitlab.com/OctoBanon/caesium-rich-presence/-/issues">Send bug report</a>
     •
-    <a href="https://gitlab.com/OctoBanon/discord-rpc#how-use-this">Usage</a>
+    <a href="https://gitlab.com/OctoBanon/caesium-rich-presence#how-use-this">Usage</a>
     •
-    <a href="https://gitlab.com/OctoBanon/discord-rpc#something-is-broken-right-now">Broked features</a>
+    <a href="https://gitlab.com/OctoBanon/caesium-rich-presence#something-is-broken-right-now">Broked features</a>
     •
-    <a href="https://gitlab.com/OctoBanon/discord-rpc#special-thanks">Special thanks</a>
+    <a href="https://gitlab.com/OctoBanon/caesium-rich-presence#special-thanks">Special thanks</a>
     •
-    <a href="https://gitlab.com/OctoBanon/discord-rpc#licenses">Licenses</a>
+    <a href="https://gitlab.com/OctoBanon/caesium-rich-presence#licenses">Licenses</a>
 </div>
 
 
@@ -74,4 +74,4 @@ vnpleo - For helping with text correction in this readme
 
 
 ## Licenses
-The project is licensed under the [GNU General Public License 3.0](https://gitlab.com/OctoBanon/discord-rpc/-/blob/main/LICENSE).
+The project is licensed under the [GNU General Public License 3.0](https://gitlab.com/OctoBanon/caesium-rich-presence/-/blob/main/LICENSE).
