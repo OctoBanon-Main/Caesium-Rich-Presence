@@ -27,7 +27,7 @@ def args_parser():
     load_group.add_argument('--name', '-n', type=str, required=True)
 
     other_group.add_argument('-v', '--version', action='version',
-                             version=f"Simple Discord Rich Presence client, version: {__version__}",
+                             version=f'Caesium Rich Presence, version: {__version__}',
                              help="Show program's version and exit.")
 
     parser.add_argument('-h', '--help', action='help',
