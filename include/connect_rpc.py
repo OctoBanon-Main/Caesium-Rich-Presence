@@ -1,7 +1,13 @@
-from pypresence import Presence
 from include import messages
 from secrets import token_hex
 from time import time, sleep
+
+try:
+    from pypresence import Presence
+except ImportError:
+    messages.cleaner()
+    print(messages.pypresence_import_error)
+    exit()
 
 
 def connection_up(profile: dict):
