@@ -13,6 +13,8 @@ def colorizer(r, g, b, text):
 profile_not_exists_error = f'{colorizer(177, 0, 0, "[ERROR]")} This profile are not exists!'
 profile_already_exists_error = f'{colorizer(177, 0, 0, "[ERROR]")} This profile already exists!'
 unexpected_error_occurred = f'{colorizer(177, 0, 0, "[ERROR]")} Unexpected error occurred'
+pypresence_import_error = f'{colorizer(177, 0, 0, "[ERROR]")} Failed to import PyPresence please install library or ' \
+                          f'reinstall it '
 
 # Messages
 profile_created_message = f'{colorizer(0, 217, 145, "[LOG]")} Profile created!'
