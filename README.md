@@ -35,24 +35,19 @@ pip3 install pypresence
 ```
 
 - Create application in [Discord Developer Portal](https://discord.com/developers/applications)
-
 - Take application id from your created app and paste this in client-id argument
-
 - Create profile with command:
 ```bash
 python main.py create --client-id ID --name "NAME" --details "TEXT" --state "TEXT"
 ```
-
 - And load this with command
 ```bash
 python main.py load --name "NAME"
 ```
-
 Addictional arguments will be in help
 ```bash
 python main.py --help or -h
 ```
-
 ```bash
 python main.py create --help or -h
 ```
