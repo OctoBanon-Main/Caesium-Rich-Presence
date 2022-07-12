@@ -6,7 +6,7 @@ from include import connect_rpc, argument_parser, messages
 
 class Main:
     def __init__(self):
-        """This class can't used in another modules."""
+        """Class can't used in another modules."""
         self.params = argument_parser.args_parser()
 
     def create_profile(self):
