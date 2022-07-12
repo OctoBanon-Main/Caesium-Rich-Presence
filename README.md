@@ -23,7 +23,6 @@
 ## Warning
 Argument parser will be rewrited in next update and old arguments maybe will unavalible or renamed
 
-
 ## How use this?
 - Install pypresence with command:
 ```bash
@@ -50,28 +49,24 @@ python main.py load --name "NAME"
 ```
 
 Addictional arguments will be in help
-```
+```bash
 python main.py --help or -h
 ```
 
-```
+```bash
 python main.py create --help or -h
 ```
-
 
 ## Something is broken right now
 Nothing is broken
 
-
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
-
 
 ## Special thanks
 [.ZΞRO](https://gitlab.com/kostya-zero) - For helping with code and bug fixing
 
 vnpleo - For helping with text correction in this readme
-
 
 ## Licenses
 The project is licensed under the [GNU General Public License 3.0](https://gitlab.com/OctoBanon/Caesium-Rich-Presence/-/blob/main/LICENSE).
