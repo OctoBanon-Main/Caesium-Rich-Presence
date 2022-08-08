@@ -12,9 +12,9 @@ def args_parser():
 
     create_group.add_argument('--name', '-n', type=str, required=True, help='Set profile name')
     create_group.add_argument('--client-id', '-ci', type=int, required=True, help='Set application ID.')
-    create_group.add_argument('--state', '-st', type=str, required=True, help='Set state.')
+    create_group.add_argument('--state', '-s', type=str, required=True, help='Set state.')
     create_group.add_argument('--details', '-d', type=str, required=True, help='Set details.')
-    create_group.add_argument('--start', '-s', type=bool)
+    create_group.add_argument('--start', '-S', type=bool)
     create_group.add_argument('--end', '-e', type=int)
     create_group.add_argument('--large-image', '-li', type=str, help='Set large image.')
     create_group.add_argument('--large-text', '-lt', type=str, help='Set text for large image.')
