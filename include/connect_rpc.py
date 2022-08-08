@@ -1,13 +1,7 @@
 from include import messages
 from secrets import token_hex
 from time import time, sleep
-
-try:
-    from pypresence import Presence
-except ImportError:
-    messages.cleaner()
-    print(messages.pypresence_import_error)
-    exit()
+from pypresence import Presence
 
 
 def connection_up(profile: dict):
@@ -17,18 +11,18 @@ def connection_up(profile: dict):
 
     if profile['start']:
         profile['start'] = time()
-        print(messages.parameter_start_enabled)
+        print(messages.option_start_enabled)
 
     if profile['join']:
         profile['join'] = token_hex(32)
-        print(messages.parameter_join_enabled)
+        print(messages.option_join_enabled)
 
     if profile['party']:
         profile['party'] = token_hex(32)
-        print(messages.parameter_party_enabled)
+        print(messages.option_party_enabled)
 
     try:
-        print(messages.connection_up_message)
+        print(messages.client_connected)
         while True:
             presence.update(state=profile['state'], details=profile['details'],
                             large_image=profile['large_image'],

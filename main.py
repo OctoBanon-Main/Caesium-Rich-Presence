@@ -1,12 +1,19 @@
 from sys import argv
 from os import path, mkdir
 from json import dump, load
-from include import connect_rpc, argument_parser, messages
+try:
+    from include import connect_rpc, argument_parser, messages
+except ModuleNotFoundError:
+    print("Looks like pypresence not installed. Install it via pip.")
+    exit(0)
 
 
 class Main:
     def __init__(self):
-        """Class can't used in another modules."""
+        """Class can't be used in another modules."""
+        if len(argv) == 1:
+            print(messages.arguments_missing)
+            exit(0)
         self.params = argument_parser.args_parser()
 
     def create_profile(self):
@@ -14,7 +21,6 @@ class Main:
             mkdir('profiles')
 
         if path.exists(f'profiles/{self.params["name"]}.json'):
-            messages.cleaner()
             print(messages.profile_already_exists_error)
             return
 
@@ -23,12 +29,10 @@ class Main:
             self.params.pop('name')
             dump(self.params, f, indent=4)
 
-            messages.cleaner()
-            print(messages.profile_created_message)
+            print(messages.profile_created)
 
     def load_profile(self):
         if not path.exists(f'profiles/{self.params["name"]}.json'):
-            messages.cleaner()
             print(messages.profile_not_exists_error)
             return
 
