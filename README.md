@@ -10,20 +10,19 @@
 <div align="center">
     <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence/-/issues">Send bug report</a>
     •
-    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#how-use-this">Usage</a>
+    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#usage">Usage</a>
     •
-    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#something-is-broken-right-now">Broked features</a>
+    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#things-to-fix">Things to fix</a>
     •
     <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#special-thanks">Special thanks</a>
     •
-    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#licenses">Licenses</a>
+    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#license-information">License Information</a>
 </div>
 
-
 ## Warning
-Argument parser will be rewrited in next update and old arguments maybe will unavalible or renamed
+In future update, argument parser will be updated and old arguments may be unavailable or renamed.
 
-## How use this?
+## Prepare Python
 - Install pypresence with command:
 ```bash
 pip install pypresence
@@ -33,26 +32,25 @@ Or on linux
 ```bash
 pip3 install pypresence
 ```
-
-- Create application in [Discord Developer Portal](https://discord.com/developers/applications)
-- Take application id from your created app and paste this in client-id argument
-- Create profile with command:
+## Usage
+Firstly, you need to create application on [Discord Developer Portal](https://discord.com/developers/applications).
+Then, take you application ID. 
+It will be used as `client-id` to create profile in Caesium.
+- Create profile:
 ```bash
 python main.py create --client-id ID --name "NAME" --details "TEXT" --state "TEXT"
 ```
-- And load this with command
+- Load created profile:
 ```bash
 python main.py load --name "NAME"
 ```
-Addictional arguments will be in help
+- Call help message:
 ```bash
-python main.py --help or -h
-```
-```bash
-python main.py create --help or -h
+python main.py -h     
+python main.py --help # Alternative
 ```
 
-## Something is broken right now
+## Things to fix
 Nothing is broken
 
 ## How I can help?
@@ -63,5 +61,5 @@ Feel free to fork this repo and make a pull request or create an issue, if you e
 
 vnpleo - For helping with text correction in this readme
 
-## Licenses
+## License Information
 The project is licensed under the [GNU General Public License 3.0](https://gitlab.com/OctoBanon/Caesium-Rich-Presence/-/blob/main/LICENSE).
