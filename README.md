@@ -59,7 +59,7 @@ Feel free to fork this repo and make a pull request or create an issue, if you e
 ## Special thanks
 [.ZΞRO](https://gitlab.com/kostya-zero) - For helping with code and bug fixing
 
-[PosReady](https://github.com/posreadyxp) - For PEP8 fixes
+[Snaky1](https://github.com/Snaky1) - For PEP8 fixes
 
 vnpleo - For helping with text correction in this readme
 
