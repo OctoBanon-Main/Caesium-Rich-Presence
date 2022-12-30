@@ -5,7 +5,6 @@
 <div align="center">
 
 # A simple rich presence client for Discord
-# This program will be rewrited on Rust
 </div>
 
 <div align="center">
@@ -21,7 +20,8 @@
 </div>
 
 ## Warning
-In future update, argument parser will be updated and old arguments may be unavailable or renamed.
+This program will be rewrited on Rust. The Python version will no longer be supported and will be moved to the legacy branch.
+
 
 ## Prepare Python
 - Install pypresence with command:
