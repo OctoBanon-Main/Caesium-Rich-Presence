@@ -5,6 +5,7 @@
 <div align="center">
 
 # A simple rich presence client for Discord
+# This program will be rewrited on Rust
 </div>
 
 <div align="center">
