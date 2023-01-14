@@ -20,7 +20,7 @@
 </div>
 
 ## Warning
-This program will be rewrited on Rust. The Python version will no longer be supported and will be moved to the legacy branch.
+This version no longer be supported.
 
 
 ## Prepare Python
