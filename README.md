@@ -20,49 +20,23 @@
 </div>
 
 ## Warning
-This program will be rewrited on Rust. The Python version will no longer be supported and will be moved to the legacy branch.
+This version in very development and can broke after any updates 
 
+## Here will be instruction who use this
 
-## Prepare Python
-- Install pypresence with command:
-```bash
-pip install pypresence
-```
-
-Or on linux
-```bash
-pip3 install pypresence
-```
-## Usage
-Firstly, you need to create application on [Discord Developer Portal](https://discord.com/developers/applications).
-Then, take you application ID. 
-It will be used as `client-id` to create profile in Caesium.
-- Create profile:
-```bash
-python main.py create --client-id ID --name "NAME" --details "TEXT" --state "TEXT"
-```
-- Load created profile:
-```bash
-python main.py load --name "NAME"
-```
-- Call help message:
-```bash
-python main.py -h     
-python main.py --help # Alternative
-```
 
 ## Things to fix
-Nothing is broken
+- Argument parser
+- RPC Connection
+- Profile control (e.g. Creation, Deletion and Loading)
 
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
 ## Special thanks
-[.ZΞRO](https://gitlab.com/kostya-zero) - For helping with code and bug fixing
+[.ZΞRO](https://gitlab.com/kostya-zero) - For helping with Python version
 
-[Snaky1](https://github.com/Snaky1) - For PEP8 fixes
-
-vnpleo - For helping with text correction in this readme
+[Snaky1](https://github.com/Snaky1) - For helping with Python version
 
 
 ## License Information
