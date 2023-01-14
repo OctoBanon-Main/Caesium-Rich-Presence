@@ -1,0 +1,12 @@
+[package]
+name = "caesium_rich_presence"
+version = "0.0.1"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.152", features = ["derive"] }
+serde_json = "1.0.91"
+clap = { version = "4.0.32", features = ["derive"] }
+termcolor = "1.1.3"
