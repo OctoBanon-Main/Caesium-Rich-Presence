@@ -22,7 +22,7 @@
 ## Warning
 This version in very development and can broke after any updates 
 
-## Here will be instruction how use this
+## Here will be instruction who use this
 
 
 ## Things to fix
