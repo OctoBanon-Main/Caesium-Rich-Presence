@@ -29,6 +29,7 @@ This version in very development and can broke after any updates
 - Argument parser
 - RPC Connection
 - Profile control (e.g. Creation, Deletion and Loading)
+- Colored output in terminal
 
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
