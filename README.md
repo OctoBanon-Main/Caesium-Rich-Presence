@@ -25,8 +25,9 @@ This version in very development and can broke after any updates
 ## Here will be instruction how use this
 
 
-## Things to fix
-- Argument parser
+## TODO list
+- Basic arguments (e.g. Create, Load, Edit, Remove)
+- Input based creation and etc
 - RPC Connection
 - Profile control (e.g. Creation, Deletion and Loading)
 - Colored output in terminal
