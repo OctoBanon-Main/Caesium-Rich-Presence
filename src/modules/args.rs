@@ -10,7 +10,13 @@ pub struct Subcommands {
 pub enum Commands {
     Create {
         #[arg(short)]
-        name: String
+        name: String,
+        #[arg(short)]
+        client_id: u64,
+        #[arg(short)]
+        details: String,
+        #[arg(short)]
+        state: String
     },
     Remove
 }
