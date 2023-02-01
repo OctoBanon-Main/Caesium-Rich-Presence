@@ -35,6 +35,13 @@ This version in very development and can broke after any updates
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
 
+## This program against Discord ToS?
+No. This program just emulate game with Rich Presence feature. Feature for game developers for adding advanced status about game in Discord
+
+- [About Rich Presence](https://discord.com/rich-presence)
+
+![Example](https://discord.com/assets/43bef54c8aee2bc0fd1c717d5f8ae28a.png)
+
 ## Special thanks
 [.ZΞRO](https://gitlab.com/kostya-zero) - For helping with Python version
 
