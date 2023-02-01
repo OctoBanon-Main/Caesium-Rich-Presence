@@ -10,7 +10,7 @@ pub struct Subcommands {
 pub enum Commands {
     Create {
         #[arg(short)]
-        name: Option<String>
+        name: String
     },
     Remove
 }
