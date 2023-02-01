@@ -10,9 +10,9 @@
 <div align="center">
     <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence/-/issues">Send bug report</a>
     •
-    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#usage">Usage</a>
+    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#todo-list">TODO list</a>
     •
-    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#things-to-fix">Things to fix</a>
+    <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#this-program-against-discord-tos">ToS?</a>
     •
     <a href="https://gitlab.com/OctoBanon/Caesium-Rich-Presence#special-thanks">Special thanks</a>
     •
