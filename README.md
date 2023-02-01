@@ -39,7 +39,7 @@ Feel free to fork this repo and make a pull request or create an issue, if you e
 No. This program just emulate game with Rich Presence feature. Feature for game developers for adding advanced status about game in Discord
 
 - [About Rich Presence](https://discord.com/rich-presence)
-
+- Example from Discord Developer Portal
 ![Example](https://discord.com/assets/43bef54c8aee2bc0fd1c717d5f8ae28a.png)
 
 ## Special thanks
