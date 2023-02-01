@@ -26,11 +26,11 @@ This version in very development and can broke after any updates
 
 
 ## TODO list
-- Basic arguments (e.g. Create, Load, Edit, Remove)
-- Input based creation and etc
-- RPC Connection
-- Profile control (e.g. Creation, Deletion and Loading)
-- Colored output in terminal
+[ ] Basic arguments (e.g. Create, Load, Edit, Remove)
+[ ] Input based creation and etc
+[ ] Profile control (e.g. Creation, Deletion and Loading)
+[ ] RPC Connection
+[ ] Colored output in terminal
 
 ## How I can help?
 Feel free to fork this repo and make a pull request or create an issue, if you encountered a problem!
