@@ -1,6 +1,6 @@
 use modules::{
     arguments::{Commands, Subcommands},
-    profile::create_profile
+    profile::{create_profile, load_profile_list}
 };
 use clap::Parser;
 
@@ -10,7 +10,7 @@ fn main() {
         Some(Commands::Create) => {
             create_profile().expect("TODO: panic message");
         },
-        Some(Commands::Load) => println!("Test 2"),
+        Some(Commands::Load) => load_profile_list(),
 
         Some(Commands::Edit) => println!("Test 3"),
 
