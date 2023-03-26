@@ -1,7 +1,7 @@
 use serde::{Serialize, Deserialize};
 use serde_json::Result;
 
-use crate::filesystem::{create_profile_file, read_profile_directory};
+use crate::filesystem::{create_profile_file};
 
 #[derive(Serialize, Deserialize)]
 struct Profile {
@@ -17,14 +17,20 @@ struct Profile {
 }
 
 pub fn create_profile() -> Result<()> {
-    let data = r#"{"client_id": 1,"details": "Test","state": "Test","start_timestamp": true,"end_timestamp": 1337,"large_image_url": "Test","small_image_url": "Test","large_image_text": "Test","small_image_text": "Test","party_size": [1,5]}"#;
+    let profile_data = Profile {
+        client_id: 1,
+        details: "Test".to_owned(),
+        state: "Test".to_owned(),
+        start_timestamp: false,
+        end_timestamp: 0,
+        large_image_url: "".to_string(),
+        small_image_url: "".to_string(),
+        large_image_text: "".to_string(),
+        small_image_text: "".to_string()
+    };
 
-    let json = serde_json::to_string_pretty(&data)?;
+    let json = serde_json::to_string_pretty(&profile_data)?;
     create_profile_file(&json);
 
     Ok(())
-}
-
-pub fn load_profile_list() {
-    read_profile_directory();
 }

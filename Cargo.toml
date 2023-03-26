@@ -1,6 +1,7 @@
 [package]
 name = "Caesium-Rich-Presence"
 description = "A simple rich presence client for Discord"
+authors = ["OctoBanon"]
 license = "GPL-3.0"
 version = "2.0.0-dev"
 edition = "2021"
