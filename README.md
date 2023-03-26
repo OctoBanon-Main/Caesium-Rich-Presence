@@ -44,7 +44,7 @@ No. This program just emulate game with Rich Presence feature. Feature for game 
 ![Example](https://discord.com/assets/43bef54c8aee2bc0fd1c717d5f8ae28a.png)
 
 ## Special thanks
-[.ZΞRO](https://gitlab.com/kostya-zero) - For helping with Python version
+[.ZΞRO](https://gitlab.com/kostya-zero) - For helping with Python and Rust versions
 
 [Snaky1](https://github.com/Snaky1) - For helping with Python version
 
