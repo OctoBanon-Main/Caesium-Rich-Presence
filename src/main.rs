@@ -28,16 +28,7 @@ fn app() -> Command {
                                  .short('c')
 
                          )
-                     .about("Create profile."),
-
-                     Command::new("load")
-                     .about("Load profile."),
-
-                     Command::new("edit")
-                     .about("Edit profile."),
-
-                     Command::new("remove")
-                     .about("Remove profile.")
+                     .about("Create profile.")
         ])
 }
 
@@ -45,13 +36,9 @@ fn main() {
     let args = app().get_matches();
     match args.subcommand() {
         Some(("create", _submatches)) => {
-            create_profile().expect("Error: Can't create profile");
+            let name = _submatches.get_one::<String>("name").expect("Error").to_string();
+            create_profile(&name).expect("Error: Can't create profile");
         },
-        Some(("load", _submatches)) => println!("Test 2"),
-
-        Some(("edit", _submatches)) => println!("Test 3"),
-
-        Some(("remove", _submatches)) => println!("Test 4"),
 
         _ => println!("Unknown command")
     }
