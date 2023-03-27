@@ -1,6 +1,5 @@
 use serde::{Serialize, Deserialize};
 use serde_json::Result;
-use clap::ArgMatches;
 
 use crate::filesystem::{create_profile_file};
 
@@ -24,10 +23,10 @@ pub fn create_profile(name: &String) -> Result<()> {
         state: "Test".to_owned(),
         start_timestamp: false,
         end_timestamp: 0,
-        large_image_url: "".to_string(),
-        small_image_url: "".to_string(),
-        large_image_text: "".to_string(),
-        small_image_text: "".to_string()
+        large_image_url: "".to_owned(),
+        small_image_url: "".to_owned(),
+        large_image_text: "".to_owned(),
+        small_image_text: "".to_owned()
     };
 
     let json = serde_json::to_string_pretty(&profile_data)?;
